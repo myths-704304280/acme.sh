@@ -75,8 +75,8 @@ class Acme_Deploy_Domain(Acme):
 
     def dns_api_mode(self):
         dict, firm = [], ''
-        print("腾讯/DNSPod：DP_Id|DP_key \n 阿里云: Ali_Secret|Ali_Key \n CloudFlare: CF_Email|CF_Key \n 其他 \n 例如 \nDP_Id='123' \nDP_Key='aaa' \n退出请输入ok \n" )
-        print("请输入API值 ")
+        print("腾讯/DNSPod：DP_Id|DP_key \n 阿里云: Ali_Secret|Ali_Key \n CloudFlare: CF_Email|CF_Key \n 其他 \n 例如 \nDP_Id='123' \nDP_Key='aaa'  \n" )
+        print("请输入API值 输入完毕，请输入ok")
         while True:
             api = input("export ")
 
